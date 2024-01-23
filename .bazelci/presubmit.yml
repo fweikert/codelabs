@@ -1,6 +1,7 @@
 ---
 tasks:
   ubuntu1804:
+    shards: 2
     shell_commands:
     - sh generate_build_files.sh
     build_targets:
