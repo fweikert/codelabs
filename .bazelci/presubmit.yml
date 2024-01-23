@@ -15,7 +15,7 @@ tasks:
     - "//..."
     test_targets:
     - "//..."
-  macos:
+  macos_v2:
     shards: 4
     shell_commands:
     - sh generate_build_files.sh
