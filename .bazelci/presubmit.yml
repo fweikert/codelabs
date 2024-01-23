@@ -1,6 +1,7 @@
 ---
 tasks:
   ubuntu1604:
+    shards: 2
     shell_commands:
     - sh generate_build_files.sh
     build_targets:
@@ -15,6 +16,7 @@ tasks:
     test_targets:
     - "//..."
   macos:
+    shards: 4
     shell_commands:
     - sh generate_build_files.sh
     build_targets:
